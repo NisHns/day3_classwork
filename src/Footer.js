@@ -1,9 +1,5 @@
 import React from "react";
 import './Footer.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faInstagram, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-
-
 
 function Footer() {
     return (
@@ -20,18 +16,7 @@ function Footer() {
                     <li><a href="Services">Services</a></li>
                     <li><a href="Projects">Projects</a></li>
                     <li><a href="Blog">Blog</a></li>
-
                 </ul>
-
-                <div className="social-media-icons">
-                    <a href="#facebook"><FontAwesomeIcon icon={faFacebook} /></a>
-                    <a href="#twitter"><FontAwesomeIcon icon={faTwitter} /></a>
-                    <a href="#instagram"><FontAwesomeIcon icon={faInstagram} /></a>
-                    <a href="#github"><FontAwesomeIcon icon={faGithub} /></a>
-                    <a href="#linkedin"><FontAwesomeIcon icon={faLinkedin} /></a>
-
-
-                </div>
             </div>
         </footer>
     );
